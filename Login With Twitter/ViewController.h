@@ -10,6 +10,15 @@
 
 @interface ViewController : UIViewController
 
+- (IBAction)btnTwitterLogin:(id)sender;
+
+- (void) displaySuccessMessage;
+
+- (void)displayErrorMessage;
+
+- (void) writeToTextFileWithAppend:(NSString*)text :(NSString*)mood;
+
+- (NSMutableArray*) convertFromTxtToPlist:(NSString*)fileName;
 
 @end
 

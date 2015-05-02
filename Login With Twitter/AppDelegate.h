@@ -7,11 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <Accounts/Accounts.h>
+#import <Twitter/Twitter.h>
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
+- (void)getTwitterAccountOnCompletion:(void(^)(ACAccount *))completionHandler;
 
 @end
 

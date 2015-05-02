@@ -14,6 +14,10 @@
 		8920FD7B1AEED3910093C4B5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8920FD7A1AEED3910093C4B5 /* Images.xcassets */; };
 		8920FD7E1AEED3910093C4B5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8920FD7C1AEED3910093C4B5 /* LaunchScreen.xib */; };
 		8920FD8A1AEED3910093C4B5 /* Login_With_TwitterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8920FD891AEED3910093C4B5 /* Login_With_TwitterTests.m */; };
+		8920FD9A1AEEF33E0093C4B5 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8920FD991AEEF33E0093C4B5 /* Social.framework */; };
+		8920FD9C1AEEF3440093C4B5 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8920FD9B1AEEF3440093C4B5 /* Accounts.framework */; };
+		8920FD9E1AEEF3490093C4B5 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8920FD9D1AEEF3490093C4B5 /* Twitter.framework */; };
+		8940AB5F1AF4011E00AA81C4 /* Ready-Tweet-IDsMai.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8940AB5E1AF4011E00AA81C4 /* Ready-Tweet-IDsMai.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +44,10 @@
 		8920FD831AEED3910093C4B5 /* Login With TwitterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Login With TwitterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8920FD881AEED3910093C4B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8920FD891AEED3910093C4B5 /* Login_With_TwitterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Login_With_TwitterTests.m; sourceTree = "<group>"; };
+		8920FD991AEEF33E0093C4B5 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		8920FD9B1AEEF3440093C4B5 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		8920FD9D1AEEF3490093C4B5 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		8940AB5E1AF4011E00AA81C4 /* Ready-Tweet-IDsMai.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "Ready-Tweet-IDsMai.txt"; path = "Login With Twitter/Ready-Tweet-IDsMai.txt"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +55,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8920FD9E1AEEF3490093C4B5 /* Twitter.framework in Frameworks */,
+				8920FD9C1AEEF3440093C4B5 /* Accounts.framework in Frameworks */,
+				8920FD9A1AEEF33E0093C4B5 /* Social.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +74,10 @@
 		8920FD611AEED3910093C4B5 = {
 			isa = PBXGroup;
 			children = (
+				8940AB5E1AF4011E00AA81C4 /* Ready-Tweet-IDsMai.txt */,
+				8920FD9D1AEEF3490093C4B5 /* Twitter.framework */,
+				8920FD9B1AEEF3440093C4B5 /* Accounts.framework */,
+				8920FD991AEEF33E0093C4B5 /* Social.framework */,
 				8920FD6C1AEED3910093C4B5 /* Login With Twitter */,
 				8920FD861AEED3910093C4B5 /* Login With TwitterTests */,
 				8920FD6B1AEED3910093C4B5 /* Products */,
@@ -202,6 +217,7 @@
 				8920FD791AEED3910093C4B5 /* Main.storyboard in Resources */,
 				8920FD7E1AEED3910093C4B5 /* LaunchScreen.xib in Resources */,
 				8920FD7B1AEED3910093C4B5 /* Images.xcassets in Resources */,
+				8940AB5F1AF4011E00AA81C4 /* Ready-Tweet-IDsMai.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +428,7 @@
 				8920FD8F1AEED3910093C4B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8920FD901AEED3910093C4B5 /* Build configuration list for PBXNativeTarget "Login With TwitterTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +437,7 @@
 				8920FD921AEED3910093C4B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
